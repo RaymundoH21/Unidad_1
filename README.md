@@ -1,2 +1,2 @@
 # Unidad_1
- Computo distribuido unidad 1
+Mineria de datos unidad 1
