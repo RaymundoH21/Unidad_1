@@ -1,3 +1,5 @@
+# Hirales Lazareno Raymundo - 17212339
+# Galaviz Lona Oscar Eduardo - 17212993
 #1 suma
 suma <- function(x, y) {
   resultado <- x + y
