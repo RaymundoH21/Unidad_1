@@ -10,7 +10,7 @@ Drive: https://docs.google.com/document/d/13bML8I6w8kDpJadV9Gz6Q1UqfybvPT5kR4GnY
 # Practica 2
 - Funciones
 Practica encontrando 20 funciones más en R y haz un ejemplo de cada una.
-Drive: 
+Drive: https://drive.google.com/file/d/15jxsZJ73KfqiTdwbq8V9cQBDygesZdLK/view?usp=sharing
 
 # Practica 3
 - Auditacion de cientifico de datos
