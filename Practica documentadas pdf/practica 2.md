@@ -1,3 +1,44 @@
+
+<p align="center">
+    <img alt="Logo" src="https://www.tijuana.tecnm.mx/wp-content/uploads/2021/08/liston-de-logos-oficiales-educacion-tecnm-FEB-2021.jpg" width=850 height=250>
+</p>
+
+<H2><p align="Center">TECNOLÓGICO NACIONAL DE MÉXICO</p></H2>
+
+<H2><p align="Center">INSTITUTO TECNOLÓGICO DE TIJUANA</p></H2>
+
+<H2><p align="Center">SUBDIRECCIÓN ACADÉMICA</p></H2>
+
+<H2><p align="Center">DEPARTAMENTO DE SISTEMAS Y COMPUTACIÓN</p></H2>
+
+<H2><p align="Center">NOMBRE DE LOS ALUMNOS: </p></H2>
+
+<H2><p align="Center">RAYMUNDO HIRALES LAZARENO (N. CONTROL: 17212339)</p></H2>
+
+<H2><p align="Center">GALAVIZ LONA OSCAR EDUARDO (N.CONTROL: 17212993)</p></H2>
+
+<H2><p align="Center">Carrera: Ingeniería Informática</p></H2>
+
+<H2><p align="Center">Semestre: 9no </p></H2>
+
+<H2><p align="Center">MATERIA: Minería de datos</p></H2>
+
+<H2><p align="Center">PROFESOR: JOSE CHRISTIAN ROMERO HERNANDEZ</p></H2>
+
+<H2><p align="Center">TRABAJOS: Practica 2</p></H2>
+
+<H2><p align="Center">FECHA: 21/09/21</p></H2>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+```R
 # Hirales Lazareno Raymundo - 17212339
 # Galaviz Lona Oscar Eduardo - 17212993
 #
@@ -161,3 +202,4 @@ trunc(x) #elimina los decimales de esa variable
 #Funcion que redondea los decimales
 #el primero numero es la cantidad mientras que el segundo es la cantidad que se quiere redondear
 round(6.78,1) 
+```
