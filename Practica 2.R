@@ -8,15 +8,15 @@ suma <- function(x, y) {  #funcion de la suma
 }
 suma (x=4, y=8) #se asignan valores dentro de la formula para funcion
 #
-#2 numeros aleatorios
+#2 Suma con while
 fun1 <- function() {
-  num <- runif(1)
+  num <- runif(1) #asignacion de valores
   veces <- 1
-  while (sum(num) < 3) {
-    veces <- veces + 1
-    num[veces] <- runif(1)
+  while (sum(num) < 3) {#condicion del while mientras el valor de la suma sea menor a 3
+    veces <- veces + 1 # realiza una suma de veces + 1
+    num[veces] <- runif(1) #se le asigna el valor a num 
   }
-  return(veces)
+  return(veces) #regresa veces
 }
 
 fun1()  # primera prueba
@@ -99,16 +99,16 @@ return(letras)  #regrasa una letra
 DNI(50247828) # G 
 #
 #10 probabilidad con graficas
-dado <- function(n = 100){
-  lanzamientos <- sample(1:6, n, rep = T)
-  frecuencias <- table(lanzamientos)/n
-  barplot(frecuencias, main = "")
-  abline(h = 1/6, col = "red", lwd = 2)
-  return(frecuencias)
+dado <- function(n = 100){ #funcion de lanzar dados
+  lanzamientos <- sample(1:6, n, rep = T) #valor del lanzamiento del dado
+  frecuencias <- table(lanzamientos)/n #frecuencia de lazamientos
+  barplot(frecuencias, main = "")     #lo representa graficamente
+  abline(h = 1/6, col = "red", lwd = 2) #representacion de la linea roja
+  return(frecuencias) #regresa porcentaje de veces del numero
 }
-par(mfcol = c(1, 3))
+par(mfcol = c(1, 3)) 
 
-dado(100)
+dado(100) #cantidad de dados a tirar
 dado(500)
 dado(100000)
 #
@@ -116,19 +116,19 @@ dado(100000)
 rnorm(3:15, 10) #los primeros numeros son el rango y el segundo es la cantidad
 #
 #12 slappy
-cuadrado.raro <- function(x) if(x < 5) x^2 else -x^2
-sapply(1:10, cuadrado.raro)
+cuadrado.raro <- function(x) if(x < 5) x^2 else -x^2 #funcion de un cuadrado
+sapply(1:10, cuadrado.raro) # interacion con una lista o vector
 #
 #13 raiz cuadrada
 sqrt(1:10) #se saca raiz cuadrada a un numero
 #
 #14 reduce
-Reduce(function(a, b) a + b, 1:10)
+Reduce(function(a, b) a + b, 1:10) #reduce la lista a un unico valor
 #
 #15 filtro
-x <- 1:20
-x[x %% 3 == 0]
-Filter(function(i) i %%3 == 0, x)
+x <- 1:20   #asignacion del valor de la lista
+x[x %% 3 == 0] # nos regresa los valores acorde a la condicion en este de 3 en 3
+Filter(function(i) i %%3 == 0,) #lo mismo que el anterior pero con la funcion filter
 #
 #16 concatenacion 
 x <- c(1,2,3)  #se asignan valores 
@@ -138,7 +138,7 @@ x; t  #se combinan la informacion de las dos variables
 #17 CAT 
 x <- 2  #asignacion de valores 
 y <- 4
-cat(x,"elevado a",y,"es",x ^ y,"\n")
+cat(x,"elevado a",y,"es",x ^ y,"\n") #concatena e imprime el resultado
 #
 #18 Invisible
 #funcion que vuelve invisible a la variable pero que los datos 
