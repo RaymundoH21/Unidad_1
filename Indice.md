@@ -28,4 +28,4 @@ Necesita crear tres gráficos que representen las siguientes ideas:
 * Intentos de Trows gratis por juego
 * Garantía de Trhows gratis
 * Estilo de juego del jugador (preferencia de 2 vs 3 puntos) excluyendo los tiros libres
-Drive: 
+Drive: https://drive.google.com/file/d/11qx7-Iii2cTo-aQ-2xzwF1mUyDJpTlj6/view?usp=sharing
