@@ -38,24 +38,24 @@ le_dfMerge
 #
 #Se muestra la expectativa de vida del año 1960
 qplot(data = le_dfMerge, y = Life_Expectancy_1960, x = Fertility.Rate)
-
+#
 #Se muestra la expectativa de vida del año 2013
 qplot(data = le_dfMerge, y = Life_Expectancy_2013, x = Fertility.Rate)
-
+#
 #Una vez obtenida esta informacion podemos generar una grafica que relacione
 #el porcentaje de fertilidad y la expectativa de vida por pais y para el año de 1960
 qplot(data = le_dfMerge, x = Fertility.Rate, y = Life_Expectancy_1960, color = Country.Name, size=I(3), shape=I(19), alpha =I(.4), main = "Fertility Rate vs Life Expectancy by Country in 1960")
 #grafica correspondiente al año 1960 comparando la fertilizada con la expectativa de vida por pais
-
+#
 #Una vez realizada la grafica de 1960 procedemos a crear la del 2013 comparando
 #el porcentaje de fertilidad y la expectativa de vida para cada pais en el año 2013
 qplot(data = le_dfMerge, x = Fertility.Rate, y = Life_Expectancy_2013, color = Country.Name, size=I(3), shape=I(19), alpha =I(.4), main = "Fertility Rate vs Life Expectancy by Country in 2013")
 #grafica correspondiente al año 2013, comparando la tasa de fertilidad y expectativa de vida por cada pais
-
+#
 #una vez realizado las graficas de los años 1960 y 2013 para cada pais procedemos a crear la de cada de region para los mismos años
 #empezando por 1960 
 qplot(data = le_dfMerge, x = Fertility.Rate, y = Life_Expectancy_1960, color = Region, size=I(3), shape=I(19), alpha =I(.4), main = "Fertility Rate vs Life Expectancy by Region in 1960")
 #esta es la grafica de cada region comparando la tasa de fertilidad con la expectativa de vida en 1960
-
+#
 qplot(data = le_dfMerge, x = Fertility.Rate, y = Life_Expectancy_2013, color = Region, size=I(3), shape=I(19), alpha =I(.4), main = "Fertility Rate vs Life Expectancy by Region in 2013")
 #esta es la grafica de cada region comparando la tasa de fertilidad con la expectativa de vida en 2013
