@@ -108,7 +108,7 @@ qplot(data = le_dfMerge, y = Life_Expectancy_2013, x = Fertility.Rate)
 qplot(data = le_dfMerge, x = Fertility.Rate, y = Life_Expectancy_1960, color = Country.Name, size=I(3), shape=I(19), alpha =I(.4), main = "Fertility Rate vs Life Expectancy by Country in 1960")
 #grafica correspondiente al año 1960 comparando la fertilizada con la expectativa de vida por pais
 ```
-<img alt="Evidence1" src="./../Examen U1/Imagenes/Grafica Expec vida vs Porce fertilidad 1960.png">
+<img alt="Evidence1" src="./../Examen U1/Imagenes/Grafica Expec vida vs Porce fertilidad 1960.JPG">
 
 ```R
 #
