@@ -64,37 +64,47 @@ Life_Expectancy_At_Birth_2013 <- c(75.3286585365854,60.0282682926829,51.86617073
 #
 # Importacion de datos csv
 stats <-read.csv(file.choose())
-stats
+stats 
+#Tabla de los datos de la tasa de fertilidad que tiene el archivo csv
+<img alt="Evidence1" src="./../Examen U1/Imagenes/Informacion importada csv.JPG">
 #
 # Generamos un nuevo dataframe con los nuevos datos de expectativa de vida
 Life_Expectancy <- data.frame(CountryCode = Country_Code, Life_Expectancy_1960 = Life_Expectancy_At_Birth_1960, Life_Expectancy_2013 = Life_Expectancy_At_Birth_2013)
 Life_Expectancy
+#tabla de la esperanza de vida del año 1960 y 2013
+<img alt="Evidence1" src="./../Examen U1/Imagenes/Tabla esperanza de vida.JPG">
 #
 # Generamos un merge para complementar ambos y crear la tabla
 le_dfMerge <- merge(stats, Life_Expectancy, by.x = "Country.Code", by.y = "CountryCode")
 #Mostramos la tabla de comparacion con las diferentes fechas
 le_dfMerge
+<img alt="Evidence1" src="./../Examen U1/Imagenes/Tabla Expectativas de vida 1960-2013.JPG">
 #
 #Se muestra la expectativa de vida del año 1960
 qplot(data = le_dfMerge, y = Life_Expectancy_1960, x = Fertility.Rate)
+<img alt="Evidence1" src="./../Examen U1/Imagenes/Grafica expectativa de vida 1960.JPG">
 #
 #Se muestra la expectativa de vida del año 2013
 qplot(data = le_dfMerge, y = Life_Expectancy_2013, x = Fertility.Rate)
+<img alt="Evidence1" src="./../Examen U1/Imagenes/Grafica expectativa de vida 2013.JPG">
 #
 #Una vez obtenida esta informacion podemos generar una grafica que relacione
 #el porcentaje de fertilidad y la expectativa de vida por pais y para el año de 1960
 qplot(data = le_dfMerge, x = Fertility.Rate, y = Life_Expectancy_1960, color = Country.Name, size=I(3), shape=I(19), alpha =I(.4), main = "Fertility Rate vs Life Expectancy by Country in 1960")
 #grafica correspondiente al año 1960 comparando la fertilizada con la expectativa de vida por pais
+<img alt="Evidence1" src="./../Examen U1/Imagenes/Grafica Expec vida vs Porce fertilidad 1960.png">
 #
 #Una vez realizada la grafica de 1960 procedemos a crear la del 2013 comparando
 #el porcentaje de fertilidad y la expectativa de vida para cada pais en el año 2013
 qplot(data = le_dfMerge, x = Fertility.Rate, y = Life_Expectancy_2013, color = Country.Name, size=I(3), shape=I(19), alpha =I(.4), main = "Fertility Rate vs Life Expectancy by Country in 2013")
 #grafica correspondiente al año 2013, comparando la tasa de fertilidad y expectativa de vida por cada pais
+<img alt="Evidence1" src="./../Examen U1/Imagenes/Grafica Expec vida vs porc fertilidad 2013.png">
 #
 #una vez realizado las graficas de los años 1960 y 2013 para cada pais procedemos a crear la de cada de region para los mismos años
 #empezando por 1960 
 qplot(data = le_dfMerge, x = Fertility.Rate, y = Life_Expectancy_1960, color = Region, size=I(3), shape=I(19), alpha =I(.4), main = "Fertility Rate vs Life Expectancy by Region in 1960")
 #esta es la grafica de cada region comparando la tasa de fertilidad con la expectativa de vida en 1960
+<img alt="Evidence1" src="./../Examen U1/Imagenes/Grafica Region Expec vida vs porce fertilidad 1960.png">
 #
 qplot(data = le_dfMerge, x = Fertility.Rate, y = Life_Expectancy_2013, color = Region, size=I(3), shape=I(19), alpha =I(.4), main = "Fertility Rate vs Life Expectancy by Region in 2013")
 #esta es la grafica de cada region comparando la tasa de fertilidad con la expectativa de vida en 2013
