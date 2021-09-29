@@ -148,3 +148,6 @@ Podemos notar que lo más Importante en la comparativa de las distintas fechas e
 Además por desgracia el único país que se mantuvo en el nuevo mínimo es la región de áfrica que se mantiene y una tasa de fertilidad bastante alta.
 Lo que Europa muestra es una constante de alta esperanza de vida pero muy poca fertilidad lo que normalmente acarrea muchos problemas sociales y económicos pero que en este caso no han afectado por el momento para nada la situación socioeconómica de la región.
 En cuanto al trabajo en R podemos decir que a pesar de que a simple vista esta herramienta podría parecer de lo más complicado en realidad es una herramienta de lo más útil y completa a la hora del análisis de datos, en cambio para la realizacion de la practica resulto satisfactorio y a la vez algo cuestionable porque teniamos que analisar los datos asi como representarlos de manera correcta en las graficas.
+
+### link de youtube
+https://youtu.be/RXNpQqOWodg
