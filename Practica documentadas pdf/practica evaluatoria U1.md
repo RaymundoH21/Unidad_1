@@ -38,6 +38,12 @@
 <br>
 <br>
 
+### Introducción
+En el presente documento se expondrá a detalle la práctica evaluatoria de la unidad 1, donde veremos la utilización de R y de la herramienta RStudio, el uso e importación de un archivo CSV, además de de datos provistos por vectores propios de R, y cómo se manipulan los mismos.
+R es un entorno y lenguaje de programación con un enfoque al análisis estadístico de datos, este nace como una reimplementación de software libre del lenguaje S, adicionado con soporte para ámbito estático.
+
+
+### Desarrollo
 ```R
 # Hirales Lazareno Raymundo - 17212339
 # Galaviz Lona Oscar Eduardo - 17212993
@@ -136,3 +142,12 @@ qplot(data = le_dfMerge, x = Fertility.Rate, y = Life_Expectancy_2013, color = R
 <p>
   <img alt="Evidence1" src="./../Examen U1/Imagenes/Grafica Region Expec vida vs Porce fertilidad 2013.png">
 </p>
+
+### Conclusión
+Podemos notar que lo más Importante en la comparativa de las distintas fechas es el gran salto que tuvo todo el planeta en cuanto a la esperanza de vida ya que en 2013 se estableció un nuevo mínimo de 50 puntos que está mucho más arriba del viejo mínimo de 30 puntos.
+Además por desgracia el único país que se mantuvo en el nuevo mínimo es la región de áfrica que se mantiene y una tasa de fertilidad bastante alta.
+Lo que Europa muestra es una constante de alta esperanza de vida pero muy poca fertilidad lo que normalmente acarrea muchos problemas sociales y económicos pero que en este caso no han afectado por el momento para nada la situación socioeconómica de la región.
+En cuanto al trabajo en R podemos decir que a pesar de que a simple vista esta herramienta podría parecer de lo más complicado en realidad es una herramienta de lo más útil y completa a la hora del análisis de datos, en cambio para la realizacion de la practica resulto satisfactorio y a la vez algo cuestionable porque teniamos que analisar los datos asi como representarlos de manera correcta en las graficas.
+
+### link de youtube
+https://youtu.be/RXNpQqOWodg
