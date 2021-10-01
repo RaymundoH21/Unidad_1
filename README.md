@@ -8,7 +8,6 @@ Mineria de datos unidad 1
 Cree una secuencia de comandos R que contará cuántos de estos 
 números se encuentran entre -1 y 1 y dividirá por la cantidad total de N
 
- 
 # Practica 2
 - Funciones
 Practica encontrando 20 funciones más en R y haz un ejemplo de cada una.
