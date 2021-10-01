@@ -30,7 +30,7 @@ Necesita crear tres gráficos que representen las siguientes ideas:
 * Garantía de Trhows gratis
 * Estilo de juego del jugador (preferencia de 2 vs 3 puntos) excluyendo los tiros libres
 
-# Evaluacion
+# Evaluacion U1
 # Practica Evaluatoria U1
 - Practica demografia y visualizacion
 El Banco Mundial quedó muy impresionado con su entrega en la asignación anterior y tienen un nuevo proyecto para usted.
