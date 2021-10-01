@@ -5,19 +5,16 @@ Mineria de datos unidad 1
 - Probar la ley de los numeros grandes
 Cree una secuencia de comandos R que contará cuántos de estos 
 números se encuentran entre -1 y 1 y dividirá por la cantidad total de N
-Drive: https://docs.google.com/document/d/13bML8I6w8kDpJadV9Gz6Q1UqfybvPT5kR4GnYbXFMnU/edit?usp=sharing
 
 # Practica 2
 - Funciones
 Practica encontrando 20 funciones más en R y haz un ejemplo de cada una.
-Drive: https://drive.google.com/file/d/15jxsZJ73KfqiTdwbq8V9cQBDygesZdLK/view?usp=sharing
 
 # Practica 3
 - Auditacion de cientifico de datos
 Escenario: usted es un científico de datos que trabaja para una empresa de consultoría.
 Uno de sus compañeros del Departamento de Auditoría le ha pedido
 para ayudarles a evaluar el estado financiero de la organización X.
-Drive: https://docs.google.com/document/d/1NL-AjYTcSxYD7u04MM_TqHTXZMRDmP71ujdEDdesKOo/edit?usp=sharing
 
 # Practica 4
 - Practica Matrices
@@ -28,4 +25,11 @@ Necesita crear tres gráficos que representen las siguientes ideas:
 * Intentos de Trows gratis por juego
 * Garantía de Trhows gratis
 * Estilo de juego del jugador (preferencia de 2 vs 3 puntos) excluyendo los tiros libres
-Drive: https://drive.google.com/file/d/11qx7-Iii2cTo-aQ-2xzwF1mUyDJpTlj6/view?usp=sharing
+
+# Practica Evaluatoria U1
+- Practica demografia y visualizacion
+El Banco Mundial quedó muy impresionado con su entrega en la asignación anterior y tienen un nuevo proyecto para usted.
+Debe generar un diagrama de dispersión (scatter-plot) que muestre las estadísticas de esperanza de vida ( Life expectancy - eje y) y tasa de fertilidad (Fertility Rate -eje x) por país (Country).
+El diagrama de dispersión también debe clasificarse por países Regiones (Country Regions).
+Se le han proporcionado datos durante 2 años: 1960 y 2013 y se le exige que
+produzca una visualización para cada uno de estos años.
