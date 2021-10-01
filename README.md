@@ -1,10 +1,13 @@
 # Unidad_1
 Mineria de datos unidad 1
 
+### :open_file_folder: Practicas
+
 # Practica 1
 - Probar la ley de los numeros grandes
 Cree una secuencia de comandos R que contará cuántos de estos 
 números se encuentran entre -1 y 1 y dividirá por la cantidad total de N
+:page_facing_up: [Practice 1](./../Unidad_1/Practica documentadas pdf/practica 1.md)
 
 # Practica 2
 - Funciones
