@@ -1,20 +1,25 @@
 # Unidad_1
 Mineria de datos unidad 1
 
+### :open_file_folder: Practicas
+
 # Practica 1
 - Probar la ley de los numeros grandes
 Cree una secuencia de comandos R que contará cuántos de estos 
 números se encuentran entre -1 y 1 y dividirá por la cantidad total de N
+1. :page_facing_up: [Practica 3](./Practica%20documentadas%20pdf/../Practica%20documentadas%20pdf/practica%201.md) 
 
 # Practica 2
 - Funciones
 Practica encontrando 20 funciones más en R y haz un ejemplo de cada una.
+2. :page_facing_up: [Practica 2](./Practica%20documentadas%20pdf/../Practica%20documentadas%20pdf/practica%202.md) 
 
 # Practica 3
 - Auditacion de cientifico de datos
 Escenario: usted es un científico de datos que trabaja para una empresa de consultoría.
 Uno de sus compañeros del Departamento de Auditoría le ha pedido
 para ayudarles a evaluar el estado financiero de la organización X.
+3. :page_facing_up: [Practica 3](./Practica%20documentadas%20pdf/../Practica%20documentadas%20pdf/practica%203.md) 
 
 # Practica 4
 - Practica Matrices
@@ -26,6 +31,7 @@ Necesita crear tres gráficos que representen las siguientes ideas:
 * Garantía de Trhows gratis
 * Estilo de juego del jugador (preferencia de 2 vs 3 puntos) excluyendo los tiros libres
 
+# Evaluacion U1
 # Practica Evaluatoria U1
 - Practica demografia y visualizacion
 El Banco Mundial quedó muy impresionado con su entrega en la asignación anterior y tienen un nuevo proyecto para usted.
@@ -33,6 +39,7 @@ Debe generar un diagrama de dispersión (scatter-plot) que muestre las estadíst
 El diagrama de dispersión también debe clasificarse por países Regiones (Country Regions).
 Se le han proporcionado datos durante 2 años: 1960 y 2013 y se le exige que
 produzca una visualización para cada uno de estos años.
+3. :page_facing_up: [Practica evaluatoria U1](./Practica%20documentadas%20pdf/../Practica%20documentadas%20pdf/practica%20evaluatoria%20U1.md) 
 
 # Unidad_2
 Mineria de datos unidad 2
@@ -40,4 +47,4 @@ Mineria de datos unidad 2
 - Buscar una fuente de datos con formato csv(Tema libre)
 - Leer el csv y analizar los datos con R 
 - Generar tres gráficas con R que cuente la historia de los datos, la primera que sea una gráfica de dispersión de puntos, 
-la segunda que sea una gráfica en facetas y la tercera una gráfica que nos diga algo estadístico como la distribución que tienen los datos y que contenga la capa temas (theme). 
+la segunda que sea una gráfica en facetas y la tercera una gráfica que nos diga algo estadístico como la distribución que tienen los datos y que contenga la capa temas (theme).

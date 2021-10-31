@@ -38,6 +38,12 @@
 <br>
 <br>
 
+### Introducción
+En el presente documento se expondrá a detalle la práctica evaluatoria de la unidad 1, donde veremos la utilización de R y de la herramienta RStudio, el uso e importación de un archivo CSV, además de de datos provistos por vectores propios de R, y cómo se manipulan los mismos.
+R es un entorno y lenguaje de programación con un enfoque al análisis estadístico de datos, este nace como una reimplementación de software libre del lenguaje S, adicionado con soporte para ámbito estático.
+
+
+### Desarrollo
 ```R
 # Hirales Lazareno Raymundo - 17212339
 # Galaviz Lona Oscar Eduardo - 17212993
@@ -67,7 +73,7 @@ stats <-read.csv(file.choose())
 stats 
 #Tabla de los datos de la tasa de fertilidad que tiene el archivo csv
 ```
-<img alt="Evidence1" src="./../Examen U1/Imagenes/Informacion importada csv.JPG">
+<img alt="Evidence1" src="./../Examen U1/Imagenes/3.JPG">
 
 ```R
 #
@@ -76,7 +82,7 @@ Life_Expectancy <- data.frame(CountryCode = Country_Code, Life_Expectancy_1960 =
 Life_Expectancy
 #tabla de la esperanza de vida del año 1960 y 2013
 ```
-<img alt="Evidence1" src="./../Examen U1/Imagenes/Tabla esperanza de vida.JPG">
+<img alt="Evidence1" src="./../Examen U1/Imagenes/4.JPG">
 
 ```R
 #
@@ -85,21 +91,21 @@ le_dfMerge <- merge(stats, Life_Expectancy, by.x = "Country.Code", by.y = "Count
 #Mostramos la tabla de comparacion con las diferentes fechas
 le_dfMerge
 ```
-<img alt="Evidence1" src="./../Examen U1/Imagenes/Tabla Expectativas de vida 1960-2013.JPG">
+<img alt="Evidence1" src="./../Examen U1/Imagenes/5.JPG">
 
 ```R
 #
 #Se muestra la expectativa de vida del año 1960
 qplot(data = le_dfMerge, y = Life_Expectancy_1960, x = Fertility.Rate)
 ```
-<img alt="Evidence1" src="./../Examen U1/Imagenes/Grafica expectativa de vida 1960.JPG">
+<img alt="Evidence1" src="./../Examen U1/Imagenes/1.JPG">
 
 ```R
 #
 #Se muestra la expectativa de vida del año 2013
 qplot(data = le_dfMerge, y = Life_Expectancy_2013, x = Fertility.Rate)
 ```
-<img alt="Evidence1" src="./../Examen U1/Imagenes/Grafica expectativa de vida 2013.JPG">
+<img alt="Evidence1" src="./../Examen U1/Imagenes/2.JPG">
 
 ```R
 #
@@ -108,7 +114,7 @@ qplot(data = le_dfMerge, y = Life_Expectancy_2013, x = Fertility.Rate)
 qplot(data = le_dfMerge, x = Fertility.Rate, y = Life_Expectancy_1960, color = Country.Name, size=I(3), shape=I(19), alpha =I(.4), main = "Fertility Rate vs Life Expectancy by Country in 1960")
 #grafica correspondiente al año 1960 comparando la fertilizada con la expectativa de vida por pais
 ```
-<img alt="Evidence1" src="./../Examen U1/Imagenes/Grafica Expec vida vs Porce fertilidad 1960.JPG">
+<img alt="Evidence1" src="./../Examen U1/Imagenes/6.JPG">
 
 ```R
 #
@@ -117,7 +123,7 @@ qplot(data = le_dfMerge, x = Fertility.Rate, y = Life_Expectancy_1960, color = C
 qplot(data = le_dfMerge, x = Fertility.Rate, y = Life_Expectancy_2013, color = Country.Name, size=I(3), shape=I(19), alpha =I(.4), main = "Fertility Rate vs Life Expectancy by Country in 2013")
 #grafica correspondiente al año 2013, comparando la tasa de fertilidad y expectativa de vida por cada pais
 ```
-<img alt="Evidence1" src="./../Examen U1/Imagenes/Grafica Expec vida vs porc fertilidad 2013.png">
+<img alt="Evidence1" src="./../Examen U1/Imagenes/7.png">
 
 ```R
 #
@@ -126,7 +132,7 @@ qplot(data = le_dfMerge, x = Fertility.Rate, y = Life_Expectancy_2013, color = C
 qplot(data = le_dfMerge, x = Fertility.Rate, y = Life_Expectancy_1960, color = Region, size=I(3), shape=I(19), alpha =I(.4), main = "Fertility Rate vs Life Expectancy by Region in 1960")
 #esta es la grafica de cada region comparando la tasa de fertilidad con la expectativa de vida en 1960
 ```
-<img alt="Evidence1" src="./../Examen U1/Imagenes/Grafica Region Expec vida vs porce fertilidad 1960.png">
+<img alt="Evidence1" src="./../Examen U1/Imagenes/8.png">
 
 ```R
 #
@@ -134,5 +140,14 @@ qplot(data = le_dfMerge, x = Fertility.Rate, y = Life_Expectancy_2013, color = R
 #esta es la grafica de cada region comparando la tasa de fertilidad con la expectativa de vida en 2013
 ```
 <p>
-  <img alt="Evidence1" src="./../Examen U1/Imagenes/Grafica Region Expec vida vs Porce fertilidad 2013.png">
+  <img alt="Evidence1" src="./../Examen U1/Imagenes/9.png">
 </p>
+
+### Conclusión
+Podemos notar que lo más Importante en la comparativa de las distintas fechas es el gran salto que tuvo todo el planeta en cuanto a la esperanza de vida ya que en 2013 se estableció un nuevo mínimo de 50 puntos que está mucho más arriba del viejo mínimo de 30 puntos.
+Además por desgracia el único país que se mantuvo en el nuevo mínimo es la región de áfrica que se mantiene y una tasa de fertilidad bastante alta.
+Lo que Europa muestra es una constante de alta esperanza de vida pero muy poca fertilidad lo que normalmente acarrea muchos problemas sociales y económicos pero que en este caso no han afectado por el momento para nada la situación socioeconómica de la región.
+En cuanto al trabajo en R podemos decir que a pesar de que a simple vista esta herramienta podría parecer de lo más complicado en realidad es una herramienta de lo más útil y completa a la hora del análisis de datos, en cambio para la realizacion de la practica resulto satisfactorio y a la vez algo cuestionable porque teniamos que analisar los datos asi como representarlos de manera correcta en las graficas.
+
+### link de youtube
+https://youtu.be/RXNpQqOWodg
