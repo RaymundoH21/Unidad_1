@@ -33,3 +33,11 @@ Debe generar un diagrama de dispersión (scatter-plot) que muestre las estadíst
 El diagrama de dispersión también debe clasificarse por países Regiones (Country Regions).
 Se le han proporcionado datos durante 2 años: 1960 y 2013 y se le exige que
 produzca una visualización para cada uno de estos años.
+
+# Unidad_2
+Mineria de datos unidad 2
+# Practica 1
+- Buscar una fuente de datos con formato csv(Tema libre)
+- Leer el csv y analizar los datos con R 
+- Generar tres gráficas con R que cuente la historia de los datos, la primera que sea una gráfica de dispersión de puntos, 
+la segunda que sea una gráfica en facetas y la tercera una gráfica que nos diga algo estadístico como la distribución que tienen los datos y que contenga la capa temas (theme). 
