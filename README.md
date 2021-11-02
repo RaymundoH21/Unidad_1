@@ -48,3 +48,4 @@ Mineria de datos unidad 2
 - Leer el csv y analizar los datos con R 
 - Generar tres gráficas con R que cuente la historia de los datos, la primera que sea una gráfica de dispersión de puntos, 
 la segunda que sea una gráfica en facetas y la tercera una gráfica que nos diga algo estadístico como la distribución que tienen los datos y que contenga la capa temas (theme).
+1. :page_facing_up: [Practica 1](./Unidad%202/U2P1/../../Unidad%202/U2P1/Practica%201.md) 
