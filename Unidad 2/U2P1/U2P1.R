@@ -1,7 +1,5 @@
 #Hirales Lazareno Raymundo - 17212339
-
-install.packages("tidyverse")
-install.packages("dplyr") 
+#Galaviz Lona Oscar Eduardo - 17212993
 
 #Librerias requeridas
 library( dplyr )
