@@ -102,7 +102,7 @@ ggplot(pony_sentiment, aes(index, sentiment,color='black', fill = title)) +
   labs( title = 'Sentiment Analysis', subtitle="Sentiment across episode trajectory for the first 6 episodes")
 ```
 
-<img alt="Evidence1" src="./../Unidad 2/U2P1/IMG/Grafica de dispersion - Trayectoria de los sentimientos a lo largo de los primeros 6 capitulos.png">
+<img alt="Evidence1" src="./../../Unidad 2/U2P1/IMG/Grafica de dispersion - Trayectoria de los sentimientos a lo largo de los primeros 6 capitulos.png">
 
 ```R
 #Proceso para comparar dos episodios para tener un analisis mas completo de la narrativa
