@@ -161,7 +161,7 @@ bing_ratio <- bing_sent$n[1]/bing_sent$n[2]
 cat( 'The +/- ratio for nrc=', nrc_ratio, 'this < the +/- bing =',bing_ratio)
 ```
 
-<img alt="Evidence1" src="./../Unidad 2/U2P1/IMG/Grafica de barras - Comparacion de dos capitulos.png">
+<img alt="Evidence1" src="./../../Unidad 2/U2P1/IMG/Grafica de barras - Comparacion de dos capitulos.png">
 
 ```R
 #Proceso para encontrar las palabras mas usadas de forma positiva y negativas
@@ -203,7 +203,7 @@ custom_stop_words <- bind_rows(tibble(word = c("discord"),
 custom_stop_words
 ```
 
-<img alt="Evidence1" src="./../Unidad 2/U2P1/IMG/Grafica de barras - 15 palabras mas usadas por sentimeintos.png">
+<img alt="Evidence1" src="./../../Unidad 2/U2P1/IMG/Grafica de barras - 15 palabras mas usadas por sentimeintos.png">
 
 ```R
 #Proceso para realizar nube de palabras
@@ -221,7 +221,7 @@ bing_word_counts %>%
 
 ```
 
-<img alt="Evidence1" src="./../Unidad 2/U2P1/IMG/WordCloud - Palabras  mas usadas.png">
+<img alt="Evidence1" src="./../../Unidad 2/U2P1/IMG/WordCloud - Palabras  mas usadas.png">
 
 ```R
 #Nuevo proceso para comparar a todos los personajes y sacar al mas positivo
