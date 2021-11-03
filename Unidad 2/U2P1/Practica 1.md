@@ -241,7 +241,12 @@ ponies_lineTally <- ponies_top50 %>%
   group_by( pony ) %>%
   summarise( count = max(count) )
 ponies_lineTally
+```
 
+<img alt="Evidence1" src="./../../Unidad 2/U2P1/IMG/Grafica - Distribucion de puntuaciones por lineas de dialogo del top 50 de personajes.png">
+
+
+```R
 #usa el get sentiment con la libreria syuzhey para construir los puntajes de sentimientos
 library( syuzhet )
 ponies_top50$syuzhet <- get_sentiment(ponies_top50$word, method="syuzhet")
@@ -287,3 +292,5 @@ ggplot(plotData, aes(x=pony, y=syuzhetScore, color='black',fill=factor(pony) )) 
   theme(legend.position="none") +
   labs( title = 'Highest Syuzhet Score', subtitle = 'Top 15 ranked character Syuzhet Scores normalized by #lines delivered')
 ```
+
+<img alt="Evidence1" src="./../../Unidad 2/U2P1/IMG/Grafica de barras - Top 15 personajes con mayor puntuacion Syuzhet normalizado por lineas dichas.png">
