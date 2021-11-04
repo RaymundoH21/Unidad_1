@@ -39,6 +39,17 @@
 <br>
 
 
+
+
+###
+
+El NLP de MLP: Minería de Datos (El procesamiento del
+Lenguaje Natural)
+Análisis de los sentimientos de la narrativa de MLP: FIM
+Usando una fuente de datos de todos los guiones de 200 capítulos de la serie he
+podido comenzar una análisis exhaustivo de distintos aspectos de la narrativa y así
+generar los siguiente resultados:
+
 ```R
 #Hirales Lazareno Raymundo - 17212339
 #Galaviz Lona Oscar Eduardo - 17212993
@@ -241,7 +252,12 @@ ponies_lineTally <- ponies_top50 %>%
   group_by( pony ) %>%
   summarise( count = max(count) )
 ponies_lineTally
+```
 
+<img alt="Evidence1" src="./../../Unidad 2/U2P1/IMG/Grafica - Distribucion de puntuaciones por lineas de dialogo del top 50 de personajes.png">
+
+
+```R
 #usa el get sentiment con la libreria syuzhey para construir los puntajes de sentimientos
 library( syuzhet )
 ponies_top50$syuzhet <- get_sentiment(ponies_top50$word, method="syuzhet")
@@ -287,3 +303,23 @@ ggplot(plotData, aes(x=pony, y=syuzhetScore, color='black',fill=factor(pony) )) 
   theme(legend.position="none") +
   labs( title = 'Highest Syuzhet Score', subtitle = 'Top 15 ranked character Syuzhet Scores normalized by #lines delivered')
 ```
+
+<img alt="Evidence1" src="./../../Unidad 2/U2P1/IMG/Grafica de barras - Top 15 personajes con mayor puntuacion Syuzhet normalizado por lineas dichas.png">
+
+
+###
+Conclusión:
+Podemos notar entre los distintos tipos de análisis que realizamos una constante en
+aumento el reforzamiento de los valores positivos en la narrativa de la serie mientras
+esta mas avanzaba, entre otras cosas también está que el personaje secundario
+applebloom resultó siendo el que más palabras de emociones positivas realizó a lo
+largo de sus diálogos, superando en cuanto a líneas de diálogos a personajes
+principales a pesar de sus apariciones más limitadas.
+Y según los 3 distintos tipos de medición tanto el bingScore, lexicon y syuzhet
+mostraron una mayoría aplastante de mensajes positivos entre más de 50
+personajes. siendo esto muy interesante ya que la serie trata de reflejar y enseñar
+por medio de personajes un poco más elaborados que tu típico programa preescolar
+además de historias más elaboradas y profundas lo que cautivo a muchos infantes y
+adultos fuera de su demografía original, un análisis estadístico de lo más interesante
+y que nos da una perspectiva mucho más amplia del porque esta serie fue un
+fenómeno tanto cultural como social en la industria de la televisión infantil.
