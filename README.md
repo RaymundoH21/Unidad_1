@@ -49,3 +49,15 @@ Mineria de datos unidad 2
 - Generar tres gráficas con R que cuente la historia de los datos, la primera que sea una gráfica de dispersión de puntos, 
 la segunda que sea una gráfica en facetas y la tercera una gráfica que nos diga algo estadístico como la distribución que tienen los datos y que contenga la capa temas (theme).
 1. :page_facing_up: [Practica 1](./Unidad%202/U2P1/../../Unidad%202/U2P1/Practica%201.md) 
+
+# Evaluacion U2
+# Practica Evaluatoria U2
+-Los directivos del sitio web de reseñas de películas estan muy contento con su
+entrega anterior y ahora tienen una nueva requerimiento para usted.
+-El consultor anterior había creado una grafica para ellos que se ilustra en el siguiente
+imagen.
+-Sin embargo, el código R utilizado para crear la grafica se ha perdido y no puede
+ser recuperado .
+-Su tarea es crear el código que volverá a crear la misma tabla haciendo que se vea lo
+más cerca posible del original.
+2. :page_facing_up: [Practica Evaluatoria U2](./Practica%20Evaluatoria%202/../../Practica%20Evaluatoria%202/Practica%20Evaluatoria%202.md) 
