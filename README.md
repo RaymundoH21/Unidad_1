@@ -60,4 +60,4 @@ imagen.
 ser recuperado .
 - Su tarea es crear el código que volverá a crear la misma tabla haciendo que se vea lo
 más cerca posible del original.
-2. :page_facing_up: [Practica Evaluatoria U2](./Practica%20Evaluatoria%202/../Practica%20Evaluatoria%202/Practica%20Evaluatoria%202.md) 
+2. :page_facing_up: [Practica Evaluatoria U2](./Practica%20Evaluatoria%20U2/../../Practica%20Evaluatoria%20U2/Practica%20Evaluatoria%20U2.md) 
