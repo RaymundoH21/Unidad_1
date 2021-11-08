@@ -14,12 +14,12 @@ ourdata <- read.csv(file.choose())
 filtro <- (ourdata$Genre == "action") | (ourdata$Genre == "adventure") |(ourdata$Genre   ==  "animation")   |   (ourdata$Genre   ==  "comedy") |(ourdata$Genre == "drama")
 filtro
 
-#Filtrar los estudios dataframes
+#Filtrar los estudios del dataframes
 #filtro2
 filtro2 <- ourdata$Studio %in% c("Buena Vista Studios", "WB", "Fox", "Universal", "Sony", "Paramount Pictures")
 filtro2
 
-#Dataframe Filtrado
+#creacion de Dataframe Filtrado
 ourdata2 <- ourdata[filtro & filtro2,]
 ourdata2
 
