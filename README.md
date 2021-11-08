@@ -52,12 +52,12 @@ la segunda que sea una gráfica en facetas y la tercera una gráfica que nos dig
 
 # Evaluacion U2
 # Practica Evaluatoria U2
--Los directivos del sitio web de reseñas de películas estan muy contento con su
+- Los directivos del sitio web de reseñas de películas estan muy contento con su
 entrega anterior y ahora tienen una nueva requerimiento para usted.
--El consultor anterior había creado una grafica para ellos que se ilustra en el siguiente
+- El consultor anterior había creado una grafica para ellos que se ilustra en el siguiente
 imagen.
--Sin embargo, el código R utilizado para crear la grafica se ha perdido y no puede
+- Sin embargo, el código R utilizado para crear la grafica se ha perdido y no puede
 ser recuperado .
--Su tarea es crear el código que volverá a crear la misma tabla haciendo que se vea lo
+- Su tarea es crear el código que volverá a crear la misma tabla haciendo que se vea lo
 más cerca posible del original.
-2. :page_facing_up: [Practica Evaluatoria U2](./Practica%20Evaluatoria%202/../../Practica%20Evaluatoria%202/Practica%20Evaluatoria%202.md) 
+2. :page_facing_up: [Practica Evaluatoria U2](./Practica%20Evaluatoria%202/../Practica%20Evaluatoria%202/Practica%20Evaluatoria%202.md) 
