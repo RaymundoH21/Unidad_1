@@ -71,7 +71,7 @@ summary(regressor)
 ```
 Por ultimo los resultado del modelo que mediante la regresion  
 
-<img alt="Evidence1" src="./../../Unidad 3/Practica 2/IMG/summary.PGN">
+<img alt="Evidence1" src="./../../Unidad 3/Practica 2/IMG/summary.PNG">
 
 # predicciones
 Aqui nos muestran las predicciones que tendria cada uno de los campos del dataframe
@@ -81,7 +81,7 @@ Aqui nos muestran las predicciones que tendria cada uno de los campos del datafr
 y_pred = predict(regressor, newdata = test_set)
 y_pred
 ```
-<img alt="Evidence1" src="./../../Unidad 3/Practica 2/IMG/prediccion en y.PGN">
+<img alt="Evidence1" src="./../../Unidad 3/Practica 2/IMG/prediccion en y.PNG">
 
 # Optimizacion del modelo para usar backward elimanation
 En este apartado empezamos a optimizar el dataframe para la utilizacion del backward elimanation reduciendo el dataframe a solo unos cuantos campos claves del dataframe que se utilizaran para este analisis
@@ -94,14 +94,14 @@ regressor = lm(formula = Profit ~ R.D.Spend + Administration + Marketing.Spend +
                data = dataset )
 summary(regressor)
 ```
-<img alt="Evidence1" src="./../../Unidad 3/Practica 2/IMG/summary regresor.PGN">
+<img alt="Evidence1" src="./../../Unidad 3/Practica 2/IMG/summary regresor.PNG">
 
 ```R
 regressor = lm(formula = Profit ~ R.D.Spend + Administration + Marketing.Spend,
                data = dataset )
 summary(regressor)
 ```
-<img alt="Evidence1" src="./../../Unidad 3/Practica 2/IMG/no state.PGN">
+<img alt="Evidence1" src="./../../Unidad 3/Practica 2/IMG/no state.PNG">
 
 ```R
 regressor = lm(formula = Profit ~ R.D.Spend + Marketing.Spend,
@@ -112,13 +112,13 @@ regressor = lm(formula = Profit ~ R.D.Spend + Marketing.Spend,
                data = dataset )
 summary(regressor)
 ```
-<img alt="Evidence1" src="./../../Unidad 3/Practica 2/IMG/no administration.PGN">
+<img alt="Evidence1" src="./../../Unidad 3/Practica 2/IMG/no administration.PNG">
 
 ```R
 y_pred = predict(regressor, newdata = test_set)
 y_pred
 ```
-<img alt="Evidence1" src="./../../Unidad 3/Practica 2/IMG/new prediccion en y.PGN">
+<img alt="Evidence1" src="./../../Unidad 3/Practica 2/IMG/new prediccion en y.PNG">
 
 # uso de backwardelimination
 una vez reducido el dataframe procedemos a realizar el uso de la funcion de backwardelimination. creamos la funcion para que se realice en el dataframe que reducimos
@@ -143,7 +143,7 @@ SL = 0.05
 #dataset = dataset[, c(1,2,3,4,5)]
 training_set
 ```
-<img alt="Evidence1" src="./../../Unidad 3/Practica 2/IMG/training set.PGN">
+<img alt="Evidence1" src="./../../Unidad 3/Practica 2/IMG/training set.PNG">
 
 # resultados del backwardelimination
 Aqui se nos muestran los resultados como el analisis anterior pero con la funcion del analisis de backwardeliminatio y nos mostrara una serie de resultados estadisticos como la media, la mediana, el cuartil, el error estandar entre otros que me muestra
@@ -152,4 +152,4 @@ Aqui se nos muestran los resultados como el analisis anterior pero con la funcio
 backwardElimination(training_set, SL)
 ```
 
-<img alt="Evidence1" src="./../../Unidad 3/Practica 2/IMG/backward.PGN">
+<img alt="Evidence1" src="./../../Unidad 3/Practica 2/IMG/backward.PNG">
