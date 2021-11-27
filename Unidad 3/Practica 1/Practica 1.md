@@ -26,7 +26,7 @@
 
 <H2><p align="Center">TRABAJOS: Practica 1</p></H2>
 
-<H2><p align="Center">FECHA: 1/11/21</p></H2>
+<H2><p align="Center">FECHA: 26/11/21</p></H2>
 
 <br>
 <br>
@@ -37,11 +37,11 @@
 <br>
 <br>
 
+# Visualización de datos de modelo de machine learning regresión lineal:
+Usando una fuente de datos de los salarios y la experiencia de los trabajadores con los cuales visualizamos los modelos básicos de regresión lineal.
+
+# Código:
 ```R
-getwd()
-setwd("/home/chris/Documents/itt/Enero_Junio_2020/Mineria_de_datos/DataMining/MachineLearning/SimpleLinearRegression")
-getwd()
-
 # Importing the dataset
 dataset <- read.csv('Salary_Data.csv')
 
@@ -86,3 +86,6 @@ ggplot() +
   ylab('Salary')
 ```
 <img alt="Evidence1" src="./../../Unidad 3/Practica 1/IMG/Salarios vs Experiencia (Training Set).JPG">
+
+# Analisis y conclusion
+Se puede denotar la regresion lineal en el ejercicio a partir de las imagenes presentadas lo que demuestra el uso de este tema para el analisis de mineria de datos.
