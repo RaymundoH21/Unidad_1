@@ -61,3 +61,16 @@ ser recuperado .
 - Su tarea es crear el código que volverá a crear la misma tabla haciendo que se vea lo
 más cerca posible del original.
 2. :page_facing_up: [Practica Evaluatoria U2](./Unidad%202/Practica%20Evaluatoria%20U2/../../Unidad%202/Practica%20Evaluatoria%20U2/Practica%20Evaluatoria%20U2.md) 
+
+# Unidad_3
+Mineria de datos unidad 3
+
+# Practica 1
+
+# Practica 2
+
+# Practica 3
+
+# Practica 4
+
+# Practica Evaluatoria U3
