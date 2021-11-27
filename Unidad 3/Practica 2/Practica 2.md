@@ -24,9 +24,9 @@
 
 <H2><p align="Center">PROFESOR: JOSE CHRISTIAN ROMERO HERNANDEZ</p></H2>
 
-<H2><p align="Center">TRABAJOS: Practica 1</p></H2>
+<H2><p align="Center">TRABAJOS: Practica 2</p></H2>
 
-<H2><p align="Center">FECHA: 1/11/21</p></H2>
+<H2><p align="Center">FECHA: 26/11/21</p></H2>
 
 <br>
 <br>
