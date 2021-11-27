@@ -42,26 +42,26 @@ Usando una fuente de datos de los salarios y la experiencia de los trabajadores 
 
 # Código:
 ```R
-# Importing the dataset
+# importar el repositorio
 dataset <- read.csv('Salary_Data.csv')
 
-# Splitting the dataset into the Training set and Test set
-# Install.packages('caTools')
+# separar el datasets dentro del training set y el test set
+# instalar.packages('caTools')
 library(caTools)
 set.seed(123)
 split <- sample.split(dataset$Salary, SplitRatio = 2/3)
 training_set <- subset(dataset, split == TRUE)
 test_set <- subset(dataset, split == FALSE)
 
-# Fitting Simple Linear Regression to the Training set
+# acomodando la regresion linear simple al Training set
 regressor = lm(formula = Salary ~ YearsExperience,
                data = dataset)
 summary(regressor)
 
-# Predicting the Test set results
+# Prediccion de reusltados del Test set
 y_pred = predict(regressor, newdata = test_set)
 
-# Visualising the Training set results
+# Visualizando los resultados del Training set
 library(ggplot2)
 ggplot() +
   geom_point(aes(x=training_set$YearsExperience, y=training_set$Salary),
@@ -72,10 +72,11 @@ ggplot() +
   xlab('Years of experience') +
   ylab('Salary')
 ```
+En esta imagen podemos denotar la linea de progresion lineal del training set
 <img alt="Evidence1" src="./../../Unidad 3/Practica 1/IMG/Salarios vs Experiencia (Test Set).JPG">
 
 ```R
-# Visualising the Test set results
+# Visualizando los resultados del Test set
 ggplot() +
   geom_point(aes(x=test_set$YearsExperience, y=test_set$Salary),
              color = 'red') +
