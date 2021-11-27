@@ -94,7 +94,7 @@ regressor = lm(formula = Profit ~ R.D.Spend + Administration + Marketing.Spend +
                data = dataset )
 summary(regressor)
 ```
-<img alt="Evidence1" src="./../../Unidad 3/Practica 2/IMG/summary regresor.PNG">
+<img alt="Evidence1" src="./../../Unidad 3/Practica 2/IMG/summary regressor.PNG">
 
 ```R
 regressor = lm(formula = Profit ~ R.D.Spend + Administration + Marketing.Spend,
