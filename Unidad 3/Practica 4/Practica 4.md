@@ -110,4 +110,4 @@ points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
 Aqui se muestra el analisis correspondiente al Test set
-<img alt="Evidence1" src="./../../Unidad 3/Practica 4/IMG/K-NN(Test Set).png">
+<img alt="Evidence1" src="./../../Unidad 3/Practica 4/IMG/K-NN (Test Set).png">
