@@ -79,25 +79,25 @@ library(ggplot2)
 ggplot(training_set, aes(x=EstimatedSalary, y=Purchased)) + geom_point() + 
   stat_smooth(method="glm", method.args=list(family="binomial"), se=FALSE)
 ```
-<img alt="Evidence1" src="./../../Unidad 3/Practica 3/IMG/Salario_Estimado.JPG">
+<img alt="Evidence1" src="./../../Unidad 3/Practica 3/IMG/Salario_Estimado.PNG">
 
 ```R
 ggplot(training_set, aes(x=Age, y=Purchased)) + geom_point() + 
   stat_smooth(method="glm", method.args=list(family="binomial"), se=FALSE)
 ```
-<img alt="Evidence1" src="./../../Unidad 3/Practica 3/IMG/Edad.JPG">
+<img alt="Evidence1" src="./../../Unidad 3/Practica 3/IMG/Edad.PNG">
 
 ```R
 ggplot(test_set, aes(x=EstimatedSalary, y=Purchased)) + geom_point() + 
   stat_smooth(method="glm", method.args=list(family="binomial"), se=FALSE)
 ```
-<img alt="Evidence1" src="./../../Unidad 3/Practica 3/IMG/Salario_Estimado 2.JPG">
+<img alt="Evidence1" src="./../../Unidad 3/Practica 3/IMG/Salario_Estimado 2.PNG">
 
 ```R
 ggplot(test_set, aes(x=Age, y=Purchased)) + geom_point() + 
   stat_smooth(method="glm", method.args=list(family="binomial"), se=FALSE)
 ```
-<img alt="Evidence1" src="./../../Unidad 3/Practica 3/IMG/Edad 2.JPG">
+<img alt="Evidence1" src="./../../Unidad 3/Practica 3/IMG/Edad 2.PNG">
 
 ```R
 # Visualization the Training set result
@@ -117,7 +117,7 @@ contour(X1, X2, matrix(as.numeric(y_grid), length(X1), length(X2)), add = TRUE)
 points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
-<img alt="Evidence1" src="./../../Unidad 3/Practica 3/IMG/Regresion Lineal (Training Set).JPG">
+<img alt="Evidence1" src="./../../Unidad 3/Practica 3/IMG/Regresion Lineal (Training Set).PNG">
 
 ```R
 # Visualizando los ressultados del Test set
@@ -137,7 +137,7 @@ contour(X1, X2, matrix(as.numeric(y_grid), length(X1), length(X2)), add = TRUE)
 points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
-<img alt="Evidence1" src="./../../Unidad 3/Practica 3/IMG/Regresion Lineal (Test Set).JPG">
+<img alt="Evidence1" src="./../../Unidad 3/Practica 3/IMG/Regresion Lineal (Test Set).PNG">
 
 # Analisis y conclusion
 Se puede denotar la regresion lineal en el ejercicio a partir de las imagenes presentadas lo que demuestra el uso de este tema para el analisis de mineria de datos.
