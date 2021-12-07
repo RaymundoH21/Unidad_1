@@ -4,4 +4,4 @@
 library(e1071)
 
 # Importing the dataset
-dataset <- read.csv('Salary_Data.csv')
+dataset <- read.csv('Social_Network_Ads.csv')
