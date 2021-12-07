@@ -109,5 +109,5 @@ contour(X1, X2, matrix(as.numeric(y_grid), length(X1), length(X2)), add = TRUE)
 points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
-Aqui se muestra el analisis correspondiente al Test set
+Aqui se muestra el analisis correspondiente al Test set, y con este modelo podemos ver cual de los registros es el mas cercano a cierto punto en este caso que tan cercanos son los salarios de los empleados a los de los demas y las edades
 <img alt="Evidence1" src="./../../Unidad 3/Practica 4/IMG/K-NN (Test Set).png">
