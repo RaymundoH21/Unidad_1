@@ -120,7 +120,7 @@ contour(X1, X2, matrix(as.numeric(y_grid), length(X1), length(X2)), add = TRUE)
 points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
-<img alt="Evidence1" src="./../../Unidad 3/Practica Evaluatiria U3/IMG/Naive Bayes (Test set).png">
+<img alt="Evidence1" src="./../../Unidad 3/Practica Evaluatoria U3/IMG/Naive Bayes (Test set).png">
 
 # Análisis de resultados
 
