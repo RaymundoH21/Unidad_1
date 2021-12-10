@@ -78,6 +78,7 @@ Analizar el codigo correspondiente a la visualización de datos de modelo de mac
 3. :page_facing_up: [Practica 3](./Unidad%203/Practica%203/../../Unidad%203/Practica%203/Practica%203.md)
 
 # Practica 4
+Analizar el codigo correspondiente a la visualización de datos de modelo de machine learning K Vecinos mas cercano K-NN, este codigo esta en mi repositorio aquí dejo el enlace.
 4. :page_facing_up: [Practica 4](./Unidad%203/Practica%204/../../Unidad%203/Practica%204/Practica%204.md)
 
 # Practica Evaluatoria U3
