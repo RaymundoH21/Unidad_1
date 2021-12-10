@@ -66,11 +66,16 @@ más cerca posible del original.
 Mineria de datos unidad 3
 
 # Practica 1
+1. :page_facing_up: [Practica 1](./Unidad%203/Practica%201/../../Unidad%203/Practica%201/Practica%201.md)
 
 # Practica 2
+2. :page_facing_up: [Practica 2](./Unidad%203/Practica%202/../../Unidad%203/Practica%202/Practica%202.md)
 
 # Practica 3
+3. :page_facing_up: [Practica 3](./Unidad%203/Practica%203/../../Unidad%203/Practica%203/Practica%203.md)
 
 # Practica 4
+4. :page_facing_up: [Practica 4](./Unidad%203/Practica%204/../../Unidad%203/Practica%201/Practica%204.md)
 
 # Practica Evaluatoria U3
+5. :page_facing_up: [Practica evaluatoria U3](./Unidad%203/Practica%20Evaluatoria%20U3/../../Unidad%203/Practica%20Evaluatoria%20U3/Practica%20Evaluatoria%20U3.md)
