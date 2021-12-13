@@ -84,3 +84,7 @@ Mineria de datos unidad 3
 # Practica Evaluatoria U3
 - Implementar el modelo de clasificación Naive Bayes con el conjunto de datos Social_Network_Ads.csv y utiliazando la librería e1071 con la función naiveBayes(). Una vez que se obtenga el classificador hacer el analisis de visualización de datos correspondiente.
 5. :page_facing_up: [Practica evaluatoria U3](./Unidad%203/Practica%20Evaluatoria%20U3/../../Unidad%203/Practica%20Evaluatoria%20U3/Practica%20Evaluatoria%20U3.md)
+
+# Unidad 4
+# Practica Evaluatoria U4
+- 
