@@ -1,6 +1,4 @@
-getwd()
-setwd("C:/Users/Carlos Bojorquez/Desktop/Noveno semestre/Datos Masivones/iris-master")
-getwd()
+
 dataset = read.csv('iris.csv')
 dataset = dataset[1:4]
 install.packages("cluster")

@@ -41,13 +41,12 @@
 
 
 ### Introduccion
+Para esta practica se utilizo el modelo kmeas, el modelo es un metodo de agrupamiento que tiene como objetivo la particion de un conjunto de n observaciones en k grupos en el que la observacion pertene al grupo con un valor medio mas cercano, ademas de ser de forma agil y controlada, esta utiliza operaciones estadisticas que para minimizar los errores y mostrar diferentes puntos aleatorios de k llamados centroides y cada punto de k se le asigna una observacion en estos casos busca el centroide con menos errores y por ultimo este modelo nos mostrara los datos de una forma diferentes a otros en este caso en forma de puntos y a diferencia de los demas este busca que tengan menos errores posibles en cada punto
 
 ### Desarrollo
 
 ```R
-getwd()
-setwd("C:/Users/Carlos Bojorquez/Desktop/Noveno semestre/Datos Masivones/iris-master")
-getwd()
+
 dataset = read.csv('iris.csv')
 dataset = dataset[1:4]
 install.packages("cluster")
@@ -67,3 +66,5 @@ for (i in 1:10){
 plot(1:10, tot.withinss, type="b", pch=19)
 ```
 ### Conclusion
+
+Esta practica quiza no fue tan larga pero demuestra que tiene cosas que enseñar tratandose de un modelo que nos permite agrupar datos y buscar los puntos con menos errores significa que es un modelo que se preocupa por su exactitud, este modelo funciona para el agrupamiento de datos, asi como identificar los diferentes puntos intermedios del grupo de datos, en conclusion es un modelo que tenie un exactitud bastante buena y que para la clasificacion es de un de los modelos a utilizar
