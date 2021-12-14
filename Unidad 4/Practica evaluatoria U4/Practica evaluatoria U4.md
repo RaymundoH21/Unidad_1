@@ -76,6 +76,10 @@ plot(1:10, tot.withinss, type="b", pch=19)
 ```
 <img alt="Evidence1" src="./../../Unidad 4/Practica evaluatoria U4/IMG/Plot Grafica.png">
 
+# Análisis de resultados
+
+Podemos ver que el resultado es similar en ambos y el resultado es escalable puesto que tiene el doble de elementos, podemos decir que no varia en tamaño de elementos y se pueden usar en grandes cantidades de información, pero en pequeñas cantidades no seria tan útil este método.
+
 ### Conclusion
 
 Esta practica quiza no fue tan larga pero demuestra que tiene cosas que enseñar tratandose de un modelo que nos permite agrupar datos y buscar los puntos con menos errores significa que es un modelo que se preocupa por su exactitud, este modelo funciona para el agrupamiento de datos, asi como identificar los diferentes puntos intermedios del grupo de datos, en conclusion es un modelo que tenie un exactitud bastante buena y que para la clasificacion es de un de los modelos a utilizar
