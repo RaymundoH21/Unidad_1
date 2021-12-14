@@ -55,15 +55,15 @@ set.seed(101)
 irisCluster <- kmeans(dataset[,1:4], center=3, nstart=20)
 irisCluster
 ```
-<img alt="Evidence1" src="./../../Unidad 4/Practica Evaluatoria U4/IMG/Dataset Acomodado.PNG">
-<img alt="Evidence1" src="./../../Unidad 4/Practica Evaluatoria U4/IMG/IrisCluster.PNG">
-<img alt="Evidence1" src="./../../Unidad 4/Practica Evaluatoria U4/IMG/IrisCluster 2.PNG">
+<img alt="Evidence1" src="./../../Unidad 4/Practica evaluatoria U4/IMG/Dataset Acomodado.PNG">
+<img alt="Evidence1" src="./../../Unidad 4/Practica evaluatoria U4/IMG/IrisCluster.PNG">
+<img alt="Evidence1" src="./../../Unidad 4/Practica evaluatoria U4/IMG/IrisCluster 2.PNG">
 
 ```R
 library(cluster)
 clusplot(iris, irisCluster$cluster, color=T, shade=T, labels=0, lines=0)
 ```
-<img alt="Evidence1" src="./../../Unidad 4/Practica Evaluatoria U4/IMG/ClusterPlot(Iris).png">
+<img alt="Evidence1" src="./../../Unidad 4/Practica evaluatoria U4/IMG/ClusterPlot(Iris).png">
 
 ```R
 tot.withinss <- vector(mode="character", length=10)
@@ -74,7 +74,7 @@ for (i in 1:10){
 
 plot(1:10, tot.withinss, type="b", pch=19)
 ```
-<img alt="Evidence1" src="./../../Unidad 4/Practica Evaluatoria U4/IMG/Plot Grafica.png">
+<img alt="Evidence1" src="./../../Unidad 4/Practica evaluatoria U4/IMG/Plot Grafica.png">
 
 ### Conclusion
 
