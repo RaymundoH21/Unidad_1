@@ -52,19 +52,30 @@ dataset = dataset[1:4]
 install.packages("cluster")
 library(cluster)
 set.seed(101)
-irisCluster <- kmeans(df[,1:4], center=3, nstart=20)
+irisCluster <- kmeans(dataset[,1:4], center=3, nstart=20)
 irisCluster
+```
+<img alt="Evidence1" src="./../../Unidad 4/Practica Evaluatoria U4/IMG/Dataset Acomodado.PNG">
+<img alt="Evidence1" src="./../../Unidad 4/Practica Evaluatoria U4/IMG/IrisCluster.PNG">
+<img alt="Evidence1" src="./../../Unidad 4/Practica Evaluatoria U4/IMG/IrisCluster 2.PNG">
 
+```R
 library(cluster)
 clusplot(iris, irisCluster$cluster, color=T, shade=T, labels=0, lines=0)
+```
+<img alt="Evidence1" src="./../../Unidad 4/Practica Evaluatoria U4/IMG/ClusterPlot(Iris).png">
+
+```R
 tot.withinss <- vector(mode="character", length=10)
 for (i in 1:10){
-  irisCluster <- kmeans(df[,1:4], center=i, nstart=20)
+  irisCluster <- kmeans(dataset[,1:4], center=i, nstart=20)
   tot.withinss[i] <- irisCluster$tot.withinss
 }
 
 plot(1:10, tot.withinss, type="b", pch=19)
 ```
+<img alt="Evidence1" src="./../../Unidad 4/Practica Evaluatoria U4/IMG/Plot Grafica.png">
+
 ### Conclusion
 
 Esta practica quiza no fue tan larga pero demuestra que tiene cosas que enseñar tratandose de un modelo que nos permite agrupar datos y buscar los puntos con menos errores significa que es un modelo que se preocupa por su exactitud, este modelo funciona para el agrupamiento de datos, asi como identificar los diferentes puntos intermedios del grupo de datos, en conclusion es un modelo que tenie un exactitud bastante buena y que para la clasificacion es de un de los modelos a utilizar
