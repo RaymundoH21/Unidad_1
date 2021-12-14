@@ -78,7 +78,7 @@ plot(1:10, tot.withinss, type="b", pch=19)
 
 # Análisis de resultados
 
-Podemos ver que el resultado es similar en ambos y el resultado es escalable puesto que tiene el doble de elementos, podemos decir que no varia en tamaño de elementos y se pueden usar en grandes cantidades de información, pero en pequeñas cantidades no seria tan útil este método.
+Aqui Podemos ver Impelmentado el metodo Kmeans al ver agrupados los datos del repositorio .csv y podemos notar que los componentes del cluster estan dispersos y que los dos componentes explican la variabilidad de 95.02% en el repositorio lo que al relacionarlo con la grafica nos da una reduccion en los valores de los grupos.
 
 ### Conclusion
 
