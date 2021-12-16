@@ -84,3 +84,11 @@ Mineria de datos unidad 3
 # Practica Evaluatoria U3
 - Implementar el modelo de clasificación Naive Bayes con el conjunto de datos Social_Network_Ads.csv y utiliazando la librería e1071 con la función naiveBayes(). Una vez que se obtenga el classificador hacer el analisis de visualización de datos correspondiente.
 5. :page_facing_up: [Practica evaluatoria U3](./Unidad%203/Practica%20Evaluatoria%20U3/../../Unidad%203/Practica%20Evaluatoria%20U3/Practica%20Evaluatoria%20U3.md)
+
+# Unidad 4
+# Practica Evaluatoria U4
+- Implementar el modelo de agrupación K-Means con el conjunto de datos Iris.csv que
+se encuentra en https://github.com/jcromerohdz/iris utilizando el método
+kmeans() en R. Una vez que se obtenga el modelo de agrupamiento hacer el analis
+de visualización de datos correspondiente.
+1. :page_facing_up: [Practica evaluatoria U4](./Unidad%204/Practica%20evaluatoria%20U4/../../Unidad%204/Practica%20evaluatoria%20U4/Practica%20evaluatoria%20U4.md)
